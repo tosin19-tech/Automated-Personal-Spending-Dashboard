@@ -1,8 +1,9 @@
 # Automated-Personal-Spending-Dashboard
 ## Project Overview
-This project is fully automated personal finance tracking system designed to monitor income, expenses, savings and spending behaviour. 
+This project demonstrates how to collect, store, transform, and visualize personal spending data. 
 The system collects data through Google Forms, stores it in Google Sheets, loads into BigQuery and finally visualizes everything inLooker Studio using dynamic charts and KPIs. 
 The goal was to eliminate manual data entry and achieve a real-time, always-updated personal finance dashboard. 
+Another goal of this project is to practice automated cloud pipelines and interactive dashboards, not to perform depp financial analysis.
 
 ## End-to-End Architecture
 From Google Form to Google Sheets to BigQuery to Looker Studio.
@@ -10,6 +11,8 @@ From Google Form to Google Sheets to BigQuery to Looker Studio.
 * Google Sheets: Raw data storage + quick transformations.
 * BigQuery: Central analytical data warehouse.
 * Looker Studio: Automated, interactive dashboard.
+
+  
 
   * Live Dashboard
  [Click here to view the Automated Spending Analytics Dashboard]: (https://lookerstudio.google.com/reporting/0279983c-e3fb-4598-92f5-ade4686d622d)
